@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-preview>Ваше объявление #{$productName} прошло модерацию</mj-preview>
+    <mj-attributes>
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-text padding="10px 10px" />
+      <mj-image padding="10px 10px" />
+      <mj-social padding="10px 10px" />
+			<mj-divider padding="10px 10px" border-color="#f0f0f0" border-width="1px" />
+      <mj-button padding="10px 10px" border-radius="5px" font-size="14px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f0f0f0">
+    <mj-wrapper background-color="#ffffff" border-radius="5px" padding="25px 0">
+      <mj-section>
+        <mj-column padding-bottom="10px">
+          <mj-text font-size="14px" line-height="16px">Здравствуйте, <b>Sasha K.</b>!</mj-text>
+          <mj-text font-size="24px" line-height="24px" color="#d7b160" font-weight="bold">Сделка подтверждена!</mj-text>
+          <mj-text font-size="14px" line-height="18px">
+            Предлагаемая вами сделка подтверждена продавцом, счет на оплату выставлен.<br />
+            Ниже представлена подробная информация о содержании сделки.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-group>
+          <mj-column width="70%">
+            <mj-text font-size="24px" line-height="26px" font-weight="bold">Сделка №134</mj-text>
+          </mj-column>
+
+          <mj-column width="30%">
+            <mj-text align="right" font-size="10px" line-height="12px" color="#777" text-transform="uppercase">СОЗДАНА: 2020-09-08 00:26:11</mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-group>
+          <mj-column width="25%">
+            <mj-image
+              src="https://i.picsum.photos/id/545/100/100.jpg?hmac=9YRDH-6NS-cfWMJH-LcfrXp7Oo0gMPuGS03YU_U60qE"
+              align="left"
+              border-radius="5px"
+              padding-right="5px"
+              href="#"
+            />
+          </mj-column>
+
+          <mj-column width="75%">
+            <mj-section>
+              <mj-group>
+                <mj-column>
+                  <mj-text padding-left="5px" font-size="15px"><a href="#" style="color:#3a9cee; text-decoration: none;">Antoine Martin</a></mj-text>
+                </mj-column>
+
+                <mj-column>
+                  <mj-text align="right" font-size="18px">500 000 ₽</mj-text>
+                </mj-column>
+              </mj-group>
+            </mj-section>
+
+            <mj-text padding-left="5px">
+              <span style="color:#777">Состояние:</span> Новые (в упаковке)<br />
+              <span style="color:#777">Документы:</span> Есть
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text align="right" font-size="15px" line-height="18px">
+            Доставка: Бесплатно<br />
+            Сервисный сбор: 14 ₽<br />
+            Вы должны будете оплатить лично продавцу: 500 ₽<br />
+            Сейчас к оплате: <b>1514 ₽</b><br />
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-divider />
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="14px" color="#777">Информация о продавце</mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column width="60%">
+          <mj-social icon-size="35px" text-padding="5px" font-size="16px" border-radius="35px" align="left">
+            <mj-social-element src="https://i.picsum.photos/id/44/35/35.jpg?hmac=uOaBcmCGfZlAXBglolgSGqWqkzdmIYYgJXHfnQQGhKU" href="#" padding="0">
+              <span style="color:#3a9cee">Александр Х.</span>
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+
+        <mj-column width="40%">
+          <mj-button width="100%" background-color="#d7b160" color="#ffffff" href="#">
+            Оплатить сейчас
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+  </mj-body>
+</mjml>
