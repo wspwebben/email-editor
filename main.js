@@ -2,12 +2,12 @@ import "grapesjs/dist/css/grapes.min.css";
 import grapesJS from "grapesjs";
 import grapesJSMJML from "grapesjs-mjml";
 
-grapesJS.init({
-  fromElement: 1,
+import loadBlocks from './blocks';
+
+const editor = grapesJS.init({
   container : '#gjs',
-  avoidInlineStyle : false,
+  fromElement: true,
   plugins: [grapesJSMJML],
-  pluginsOpts: {
-     [grapesJSMJML]: {/* ...options */}
-  },
 });
+
+loadBlocks(editor);

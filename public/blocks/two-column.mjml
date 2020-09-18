@@ -1,0 +1,8 @@
+<mj-section>
+  <mj-column>
+    <mj-text>Content 1</mj-text>
+  </mj-column>
+  <mj-column>
+    <mj-text>Content 2</mj-text>
+  </mj-column>
+</mj-section>
